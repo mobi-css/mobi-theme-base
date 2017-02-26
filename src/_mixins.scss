@@ -1,19 +1,3 @@
-@mixin scroll-view() {
-  max-height: $max-height-scroll-view;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
-@mixin flex-container() {
-  flex-flow: row nowrap;
-  display: flex;
-}
-
-@mixin flex-width($percentage) {
-  flex-basis: $percentage;
-  max-width: $percentage;
-}
-
 //
 // Forms
 //
@@ -63,7 +47,7 @@
   @include input-and-button();
   @include button();
 
-  background-color: $color-background-over;
+  background-color: $color-background-faded;
 
   &[disabled] {
     @include disabled();

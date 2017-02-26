@@ -5,56 +5,49 @@
 // Colors
 //
 
-// Common colors
 // Add !default so _custom.scss can override it
 $color-background: white !default;
-// Use rgba so it can nesting
-$color-background-over: rgba(0, 0, 0, 0.05) !default;
+$color-text: #333 !default;
+$color-text-muted: #777 !default;
 $color-border: #ddd !default;
 
-$color-text: #333 !default;
+$color-primary: hsl(210, 70%, 50%) !default;
+$color-success: hsl(120, 40%, 55%) !default;
+$color-warning: hsl(35, 85%, 60%) !default;
+$color-danger: hsl(0, 65%, 60%) !default;
 
-$color-text-muted: #777 !default;
-$color-text-reverse: white !default;
+$color-background-primary: $color-primary !default;
+$color-background-success: $color-success !default;
+$color-background-warning: $color-warning !default;
+$color-background-danger: $color-danger !default;
 
-$color-text-primary: #0d7ff2 !default;
-$color-text-success: #5cb85c !default;
-$color-text-info: #5bc0de !default;
-$color-text-warning: #f0ad4e !default;
-$color-text-danger: #d9534f !default;
+$color-text-primary: $color-primary !default;
+$color-text-success: $color-success !default;
+$color-text-warning: $color-warning !default;
+$color-text-danger: $color-danger !default;
 
-$color-background-primary: desaturate($color-text-primary, 30%) !default;
-$color-background-primary-over: transparentize($color-text-primary, 0.9) !default;
+$color-background-primary-faded: transparentize($color-text-primary, 0.9) !default;
+$color-background-success-faded: transparentize($color-text-success, 0.9) !default;
+$color-background-warning-faded: transparentize($color-text-warning, 0.9) !default;
+$color-background-danger-faded: transparentize($color-text-danger, 0.9) !default;
 
-$color-background-success: desaturate($color-text-success, 30%) !default;
-$color-background-success-over: transparentize($color-text-success, 0.9) !default;
+$color-background-inverse: $color-text !default;
+$color-text-inverse: $color-background !default;
 
-$color-background-info: desaturate($color-text-info, 30%) !default;
-$color-background-info-over: transparentize($color-text-info, 0.9) !default;
+$color-background-faded: transparentize($color-background-inverse, 0.95) !default;
 
-$color-background-warning: desaturate($color-text-warning, 30%) !default;
-$color-background-warning-over: transparentize($color-text-warning, 0.9) !default;
-
-$color-background-danger: desaturate($color-text-danger, 30%) !default;
-$color-background-danger-over: transparentize($color-text-danger, 0.9) !default;
-
-// `mark`
-$color-background-mark: yellow !default;
+// <mark>
+$color-background-mark: $color-background-warning !default;
 
 //
 //
-// Container
+// Layout
 //
 
-$width-scrollbar: 17px !default;
+$max-width-container: 800px !default;
+$max-width-container-wider: 1200px !default;
 
-$min-width-container: 320px !default;
-$max-width-container: 768px !default;
-
-$width-breakpoint: $max-width-container + $width-scrollbar !default;
-
-// Set the default max-height to scroll-view
-$max-height-scroll-view: 300px !default;
+$width-breakpoint: 1000px !default;
 
 //
 //
@@ -84,12 +77,12 @@ $width-padding-border-input: $width-padding-input + $width-border !default;
 
 $font-size: $size-base * 1.6 !default;
 
-$font-size-h1: $size-base * 3 !default;
+$font-size-h1: $size-base * 3.2 !default;
 $font-size-h2: $size-base * 2.6 !default;
-$font-size-h3: $size-base * 2.4 !default;
-$font-size-h4: $size-base * 2.2 !default;
-$font-size-h5: $size-base * 2 !default;
-$font-size-h6: $size-base * 1.8 !default;
+$font-size-h3: $size-base * 2.2 !default;
+$font-size-h4: $size-base * 2 !default;
+$font-size-h5: $size-base * 1.8 !default;
+$font-size-h6: $size-base * 1.6 !default;
 
 $font-size-pre: $size-base * 1.3 !default;
 
