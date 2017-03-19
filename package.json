@@ -16,7 +16,8 @@
   "keywords": [
     "mobi-css",
     "mobi-theme",
-    "mobi-theme-base"
+    "base",
+    "css"
   ],
   "author": "xcatliu <xcatliu@gmail.com>",
   "license": "MIT",
