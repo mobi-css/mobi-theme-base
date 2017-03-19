@@ -1,6 +1,6 @@
 {
   "name": "mobi-theme-base",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "The base theme for Mobi.css",
   "main": "index.scss",
   "scripts": {
