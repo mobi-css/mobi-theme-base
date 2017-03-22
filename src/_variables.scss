@@ -58,8 +58,8 @@ $width-breakpoint: 768px !default;
 $size-base: 10px !default;
 
 $width-gap: 1.2rem !default;
-$width-gap-double: 2rem !default;
-$width-gap-half: 0.5rem !default;
+$width-gap-double: $width-gap * 2 !default;
+$width-gap-half: $width-gap * 0.5 !default;
 
 $width-padding-input: 5px !default;
 
