@@ -12,40 +12,18 @@ $color-text-muted: #777 !default;
 $color-border: #ddd !default;
 
 $color-primary: hsl(210, 70%, 50%) !default;
-$color-success: hsl(120, 40%, 55%) !default;
-$color-warning: hsl(35, 85%, 60%) !default;
 $color-danger: hsl(0, 65%, 60%) !default;
 
-$color-background-primary: $color-primary !default;
-$color-background-success: $color-success !default;
-$color-background-warning: $color-warning !default;
-$color-background-danger: $color-danger !default;
-
-$color-text-primary: $color-primary !default;
-$color-text-success: $color-success !default;
-$color-text-warning: $color-warning !default;
-$color-text-danger: $color-danger !default;
-
-$color-background-primary-faded: transparentize($color-text-primary, 0.9) !default;
-$color-background-success-faded: transparentize($color-text-success, 0.9) !default;
-$color-background-warning-faded: transparentize($color-text-warning, 0.9) !default;
-$color-background-danger-faded: transparentize($color-text-danger, 0.9) !default;
-
-$color-background-inverse: $color-text !default;
-$color-text-inverse: $color-background !default;
-
+// Use transparent color so it can nesting
 $color-background-faded: transparentize($color-background-inverse, 0.95) !default;
-
-// <mark>
-$color-background-mark: $color-background-warning !default;
 
 //
 //
 // Layout
 //
 
-$max-width-container: 800px !default;
-$max-width-container-wider: 1200px !default;
+$max-width-container: 80rem !default;
+$max-width-container-wider: 120rem !default;
 
 $width-breakpoint: 768px !default;
 
@@ -66,6 +44,8 @@ $width-padding-input: 0.5rem !default;
 $width-border-radius: 0.3rem !default;
 
 $width-border: 1px !default;
+
+$padding-code: 0.2em 0.3em !default;
 
 //
 //
@@ -120,5 +100,3 @@ $font-family:
   'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !default;
 
 $font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
-
-$padding-code: 0.2em 0.3em !default;
