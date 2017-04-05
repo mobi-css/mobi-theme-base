@@ -78,24 +78,30 @@ $font-family:
   // Chrome for OS X (San Francisco)
   BlinkMacSystemFont,
   // Windows
-  'Segoe UI',
+  "Segoe UI",
   // Android
-  'Roboto',
+  "Roboto",
   // Linux
-  'Oxygen', // KDE
-  'Ubuntu',
-  'Cantarell', // GNOME
+  "Oxygen", // KDE
+  "Ubuntu",
+  "Cantarell", // GNOME
   // Firefox OS [R.I.P.]
-  'Fira Sans',
+  "Fira Sans",
   // Older Android
-  'Droid Sans',
+  "Droid Sans",
   // Chinese font for OSX and iOS
-  'Hiragino Sans GB',
+  "Hiragino Sans GB",
   // Chinese font for Windows
-  'Microsoft Yahei', '微软雅黑',
+  "Microsoft Yahei", "微软雅黑",
   // Basic web fallback
   Arial, Helvetica, STHeiti, sans-serif,
   // Emoji
-  'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !default;
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
-$font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-monospace:
+  Menlo,
+  Monaco,
+  Consolas,
+  "Liberation Mono",
+  "Courier New",
+  monospace !default;
